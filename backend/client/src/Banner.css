@@ -1,0 +1,16 @@
+.banner-box-main-bnr {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  background-image: url("https://github.com/Bhavesh083/TSF__Task1/blob/main/wepik-20211126-164055.png?raw=true");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+}
+@media screen and (max-width: 1000px) {
+  .banner-box-main-bnr {
+    background-image: url("https://github.com/Bhavesh083/TSF__Task1/blob/main/home-leisure-weekends-lifestyle-concept-excited-carefree-asian-girl-pajama-playing-karaoke-app-smartphone-singing-song-into-mobile-phone-as-wearing-headphones-white-background.jpg?raw=true");
+  }
+}

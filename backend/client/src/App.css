@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(241, 241, 241);
+  background-image: url("https://github.com/Bhavesh083/TSF__Task1/blob/main/rm380-10.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}

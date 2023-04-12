@@ -1,0 +1,35 @@
+.Searchno
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(48, 53, 59);
+}
+.Searchno p
+{
+  padding: 9px 0px 9px 0px;
+  color: rgb(240, 240, 240);
+  font-size: 23px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SearchRes
+{
+  padding-top: 2%;
+  width : 100%;
+  height: 100%;
+  min-height : 90vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(250, 250, 250);
+  padding-bottom : 15%;
+}
+@media screen and (max-width:470px){
+  .Searchno p
+  {
+     font-size : 13px;
+  }
+  }

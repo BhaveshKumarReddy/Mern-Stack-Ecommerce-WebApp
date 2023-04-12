@@ -1,0 +1,44 @@
+.mic-main-box {
+  display: flex;
+  position: fixed;
+  top: 13%;
+  right: 2%;
+  z-index: 999;
+  cursor: pointer;
+}
+.mic-box {
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+.mic-off {
+  background-color: rgba(219, 45, 14, 0.918);
+  color: rgba(236, 236, 236, 0.904);
+}
+.mic-on {
+  background-color: rgba(14, 219, 65, 0.918);
+  color: rgba(236, 236, 236, 0.904);
+}
+
+.mic-main-box.listening::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #00ff1559;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.4);
+  border-radius: 50%;
+  animation: listening infinite 1.5s;
+}
+@keyframes listening {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.4);
+  }
+}

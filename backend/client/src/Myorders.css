@@ -1,0 +1,31 @@
+.myord{
+    width: 100%;
+}
+.yr-ord-ordpg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 99, 129);
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-bottom: 5px solid rgb(0, 56, 119);
+} 
+.ord-p-last-des{
+    background-color: rgb(32, 112, 216);
+    font-weight: bolder;
+    color: white;    
+    width: 150px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.cbox-ordbox-ord{
+    margin-bottom: 60px; 
+}
+@media screen and (max-width:600px){
+    .ord-p-last-des{
+        width: 70px;
+    }
+}

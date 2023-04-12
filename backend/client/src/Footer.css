@@ -1,0 +1,32 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+.ftr-container{
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    background-image: linear-gradient(to top, #082138, #0e2c49, #16375b, #1f426e, #2a4d81, #2e548e, #325b9c, #3662aa, #3266b5, #2d6ac1, #266fcc, #1b73d8);
+}
+.ftr-cont-box{         
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+.ftr-cont-link{
+    text-decoration: none;
+    color: white;
+    margin: 12px 15px;     
+}
+@media screen and (max-width:450px){
+    .ftr-cont-link{
+      margin: 12px 10px;
+    }
+}
